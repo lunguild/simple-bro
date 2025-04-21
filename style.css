@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body{
+  min-height: 90vh;
+  background: url('back.png');
+  background-position: center;
+  background-size: cover;
+}
+.header{
+  font-size: 70px;
+  text-align: center;
+  margin: 75px;
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 25px;
+}
+.header a:hover{
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(50px);
+  color: black;
+  border-radius: 50px;
+}
